@@ -8,6 +8,7 @@ trigger:
 
 pool:
   name: cebundy
+  demands: ceb
 
 steps:
 - task: Maven@3
