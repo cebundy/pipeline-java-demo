@@ -6,10 +6,6 @@
 trigger:
 - main
 
-pool:
-  name: Default
-  demands: Agent.Name -equals ceb
-
 steps:
 - task: Maven@3
   inputs:
