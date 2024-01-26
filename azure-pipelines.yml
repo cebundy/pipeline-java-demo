@@ -8,7 +8,7 @@ trigger:
 
 pool:
   name: Default
-  demands: ceb
+  demands: Agent.Name -equals ceb
 
 steps:
 - task: Maven@3
