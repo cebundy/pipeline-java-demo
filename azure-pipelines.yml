@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  name: cebundy
+  name: Default
   demands: ceb
 
 steps:
